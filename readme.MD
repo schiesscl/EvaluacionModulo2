@@ -49,7 +49,6 @@ Este proyecto corresponde a la evaluación final del Módulo 2: Desarrollo Web. 
 - Componentes Bootstrap (navbar, cards, accordion, modal).
 - Publicado en GitHub con README.md.
 
-## Autor
+## Autor: Hans Schiess
 
-Hans Schiess
 Este proyecto fue desarrollado como parte de una evaluación académica para fortalecer competencias en desarrollo web frontend.
