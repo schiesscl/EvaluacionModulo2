@@ -1,0 +1,15 @@
+main p li{
+    text-align: justify;
+}
+body {
+    background: #181c23 !important;
+}
+.navbar-brand {
+    text-shadow: 0 0 8px #39ff14;
+}
+.card, .accordion-item {
+    box-shadow: 0 0 12px #222;
+}
+.btn-success, .btn-primary {
+    box-shadow: 0 0 8px #39ff14;
+}

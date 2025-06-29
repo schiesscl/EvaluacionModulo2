@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Evaluación de Módulo 2</title>
+        <link rel="stylesheet" href="assets/css/amenazas.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    </head>
+    <body class="bg-dark text-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-success">
+            <div class="container">
+                <a class="navbar-brand text-success fw-bold" href="">Ciberseguridad</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="amenazas.html" class="nav-link active">Amenazas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="consejos.html" class="nav-link">Consejos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="text-center py-5">
+            <div class="container">
+                <h1 class="display-5">
+                    Comprendiendo las amenazas cibernéticas
+                </h1>
+                <p class="lead">
+                    Ahora que tenemos claro qué es la ciberseguridad, es momento de aplicarla. Sin embargo, es preciso destacar que no todas las amenazas que nos vamos a encontrar en el medio online son iguales. Es más, como veremos ahora existen distintos tipos de ataques. Y lo ideal es estar preparado para cada uno de ellos.
+                </p>
+            </div>
+        </header>
+
+        <main class="container mt-5">
+                <h2>Tipos comunes de ataques de hackers</h2>
+                <p>Los hackers utilizan una variedad de métodos para explotar vulnerabilidades en la información y sistemas informáticos. Algunos de los tipos más comunes incluyen:</p>
+                <section class="row justify-content-center text-center g-4">
+                    <!-- Se utilizó la IA Copilot con el siguiente prompt: "Necesito saber cómo puedo con bootstrap centrar la sección de las tarjetas en todos los tamaños y que las imágenes de las tarjetas tengan el mismo tamaño y si es necesario que las imágenes rellenen el espacio correspondiente" -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="card h-100 bg-secondary text-light border-success">
+                            <img src="assets/img/michael-geiger-JJPqavJBy_k-unsplash.jpg" class="card-img-top" alt="Malware">
+                            <div class="card-body">
+                                <h5 class="card-title">Malware</h5>
+                                <p class="card-text">Software malicioso que daña, roba o espía tu sistema.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="card h-100 bg-secondary text-light border-success">
+                            <img src="assets/img/towfiqu-barbhuiya-em5w9_xj3uU-unsplash.jpg" class="card-img-top" alt="Phishing">
+                            <div class="card-body">
+                                <h5 class="card-title">Phishing</h5>
+                                <p class="card-text">Son tácticas de engaño que buscan que los usuarios revelen información personal o financiera.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="card h-100 bg-secondary text-light border-success">
+                            <img src="assets/img/Brute-force-1152x720.jpg" class="card-img-top" alt="BFA">
+                            <div class="card-body">
+                                <h5 class="card-title">Ataques de fuerza bruta (BFA)</h5>
+                                <p class="card-text">Se basan en intentos de acceder a cuentas probando todas las combinaciones posibles de contraseñas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="card h-100 bg-secondary text-light border-success">
+                            <img src="assets/img/ataques_man_in_the_middle.png" class="card-img-top" alt="MitM">
+                            <div class="card-body">
+                                <h5 class="card-title">Ataque de hombre en el medio (MitM)</h5>
+                                <p class="card-text">Esto se da cuando los hackers interceptan la comunicación entre dos partes para robar o manipular datos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="card h-100 bg-secondary text-light border-success">
+                            <img src="assets/img/ddos.png" class="card-img-top" alt="Dos/DDoS">
+                            <div class="card-body">
+                                <h5 class="card-title">Denegación de servicio (DoS) y Ataque de Denegación de Servicio Distribuido (DDoS)</h5>
+                                <p class="card-text">Estos ataques buscan sobrecargar sistemas, haciéndolos inaccesibles a los usuarios legítimos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="mt-5">
+                    <h2>Casos reales</h2>
+                    <div class="accordion" id="casosAccordion">
+                        <div class="accordion-item bg-dark text-light border-success">
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                Caso: Ataque de Phishing a una entidad bancaria
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#casosAccordion">
+            <div class="accordion-body">
+                En 2022, se enviaron correos falsos simulando ser un banco para obtener claves de acceso de los usuarios. Muchos cayeron en la trampa.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item bg-dark text-light border-success">
+        <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                Caso: Ataque de ransomware a Colonial Pipeline
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#casosAccordion">
+            <div class="accordion-body">
+                En 2021, un grupo de hackers logró detener el funcionamiento de uno de los mayores ductos de combustible en EE.UU., exigiendo un rescate millonario para liberar el control de sus sistemas.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item bg-dark text-light border-success">
+        <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                Caso: Violación de datos en Facebook
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#casosAccordion">
+            <div class="accordion-body">
+                En 2019, se descubrió que millones de registros de usuarios de Facebook estaban disponibles en un foro de hacking, exponiendo información personal sensible.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item bg-dark text-light border-success">
+        <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                Caso: Ransomware a empresas de salud
+            </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#casosAccordion">
+            <div class="accordion-body">
+                Varias clínicas en EE.UU. fueron atacadas en 2021. Los atacantes exigieron dinero a cambio de liberar historiales médicos cifrados.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item bg-dark text-light border-success">
+        <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                Caso: DDoS a sitios gubernamentales
+            </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#casosAccordion">
+            <div class="accordion-body">
+                Un ataque masivo de denegación de servicio dejó sin acceso a varios sitios estatales por más de 24 horas.
+            </div>
+        </div>
+    </div>
+                    </div>
+                </section>
+        </main>
+        <footer class="text-center py-4 mt-5">
+            <div class="container">
+                <p class="mb-0">&copy; 2025 Diseñado y desarrollado por NESTS</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
