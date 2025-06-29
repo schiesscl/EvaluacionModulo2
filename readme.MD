@@ -30,9 +30,9 @@ Este proyecto corresponde a la evaluación final del Módulo 2: Desarrollo Web. 
 
 ## Archivos Principales
 
-- `/css/styles.css`: Estilos personalizados.
-- `/js/script.js`: Validaciones de formularios y lógica del test.
-- `/img/`: Imágenes usadas en tarjetas y encabezados.
+- `/assets/css/index.css`, `/assets/css/amenazas.css`, y `/assets/css/consejos.css`: Estilos personalizados.
+- `/assets/js/script.js`: Validaciones de formularios y lógica del test.
+- `/assets/img/`: Imágenes usadas en tarjetas y encabezados.
 
 ## Cómo Ejecutar el Proyecto
 
