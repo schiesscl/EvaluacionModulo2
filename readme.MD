@@ -19,7 +19,7 @@ Este proyecto corresponde a la evaluación final del Módulo 2: Desarrollo Web. 
 
 ### 2. `amenazas.html`
 
-- Tarjetas informativas sobre amenazas comunes: phishing, ransomware, malware y DDoS.
+- Tarjetas informativas sobre amenazas comunes: malware, phishing, BFA, MiTM y DDoS.
 - Acordeón con ejemplos reales de ataques cibernéticos.
 
 ### 3. `consejos.html`
